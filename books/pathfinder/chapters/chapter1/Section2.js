@@ -2,12 +2,12 @@ import Image from "../../../../components/Image";
 import Header from "../../../../components/Header";
 import Block from "../../../../components/Block";
 import Paragraph from "../../../../components/Paragraph";
-import pf3 from "../../images/chapter1/pf3.webp";
+import pf3 from "../../../../public/images/pathfinder/chapter1/pf3.webp";
 
 export default function Section2(){
   return (
     <>
-      <Header id="what-is-a-roleplaying-game" type="md">What is a roleplaying game?</Header>
+      <Header id="what-is-a-roleplaying-game" type="medium">What is a roleplaying game?</Header>
       <Paragraph>
         A roleplaying game is an interactive story where one player, the Game Master (GM), sets the scene and presents challenges, while other players take the roles of player characters (PCs) and attempt to overcome those challenges. Danger comes in the form of monsters, devious traps, and the machinations of adversarial agents, but Pathfinder also provides political schemes, puzzles, interpersonal drama, and much, much more.
       </Paragraph>
@@ -15,7 +15,7 @@ export default function Section2(){
         The game is typically played in a group of four to seven players, with one of those players serving as the group’s Game Master. The GM prepares, presents, and presides over the game’s world and story, posing challenges and playing adversaries, allies, and bystanders alike. As each scene leads into the next, each player contributes to the story, responding to situations according to the personality and abilities of their character. Dice rolls, combined with preassigned statistics, add an element of chance and determine whether characters succeed or fail at actions they attempt.
       </Paragraph>
 
-      <Header id="the-flow-of-the-game" type="sm">The Flow Of The Game</Header>
+      <Header id="the-flow-of-the-game" type="small">The Flow Of The Game</Header>
       <Paragraph>
         Pathfinder is played in sessions, during which players gather in person or online for a few hours to play the game. A complete Pathfinder story can be as short as a single session, commonly referred to as a “one-shot,” or it can stretch on for multiple sessions, forming a campaign that might last for months or even years. If the Game Master enjoys telling the story and the players are entertained, the game can go as long as you like.
       </Paragraph>
@@ -23,14 +23,14 @@ export default function Section2(){
         A session can be mostly action, with battles with vile beasts, escapes from fiendish traps, and the completion of heroic quests. Alternatively, it could include negotiating with a baron for rights to a fort, infiltrating an army of lumbering frost giants, or bargaining with an angel for a strand of hair required for an elixir to revive a slain friend. Ultimately it’s up to you and your group to determine what kind of game you are playing, from dungeon exploration to a nuanced political drama, or anything in between.
       </Paragraph>
 
-      <Block type="sidebar">
-        <Header type="block">The First Rule</Header>
+      <Block type="aside">
+        <Header type="aside">The First Rule</Header>
         <Paragraph>
           The first rule of Pathfinder is that this game is yours. Use it to tell the stories you want to tell, be the character you want to be, and share exciting adventures with friends. If any other rule gets in the way of your fun, as long as your group agrees, you can alter or ignore it to fit your story. The true goal of Pathfinder is for everyone to enjoy themselves.
         </Paragraph>
       </Block>
 
-      <Header id="the-players" type="sm">The Players</Header>
+      <Header id="the-players" type="small">The Players</Header>
       <Paragraph>
         Everyone involved in a Pathfinder game is a player, including the Game Master, but for the sake of simplicity, “player” usually refers to participants other than the GM. Before the game begins, players invent a history and personality for their characters, using the rules to determine their characters’ statistics, abilities, strengths, and weaknesses. The GM might limit the options available during character creation, but the limits are discussed ahead of time so everyone can create interesting heroes. In general, the only limits to character concepts are the players’ imaginations and the GM’s guidelines.
       </Paragraph>
@@ -41,7 +41,7 @@ export default function Section2(){
         If this is your first experience with a roleplaying game, it is recommended that you take on the role of a player to familiarize yourself with the rules and the world.
       </Paragraph>
 
-      <Header id="the-game-master" type="sm">The Game Master</Header>
+      <Header id="the-game-master" type="small">The Game Master</Header>
       <Paragraph>
         While the other players create and control their characters, the Game Master (or GM) is in charge of the story and world. The GM describes all the situations player characters experience in an adventure, considers how the actions of player characters affect the story, and interprets the rules along the way.
       </Paragraph>
@@ -52,7 +52,7 @@ export default function Section2(){
         Being the GM is a challenge, requiring you to adjudicate the rules, narrate the story, and juggle other responsibilities. But it can also be very rewarding and worth all the work required to run a good game. If it is your first time running a game, remember that the only thing that matters is that everyone has a good time, and that includes you. Everything else will come naturally with practice and patience.
       </Paragraph>
 
-      <Header id="gaming-is-for-all" type="sm">Gaming Is For All</Header>
+      <Header id="gaming-is-for-all" type="small">Gaming Is For All</Header>
       <Paragraph>
         Whether you are the GM or a player, participating in a tabletop roleplaying game includes a social contract: everyone has gathered together to have fun telling a story. For many, roleplaying is a way to escape the troubles of everyday life. Be mindful of everyone at the table and what they want out of the game, so that everyone can have fun. When a group gathers for the first time, they should talk about what they hope to experience at the table, as well as any topics they want to avoid. Everyone should understand that elements might come up that make some players feel uncomfortable or even unwelcome, and everyone should agree to respect those boundaries during play. That way, everyone can enjoy the game together.
       </Paragraph>
@@ -60,7 +60,7 @@ export default function Section2(){
         Pathfinder is a game for everyone, regardless of their age, gender, race or ethnicity, religion, sexual orientation, or any other identities and life experiences. It is the responsibility of all of the players, not just the GM, to make sure the table is fun and welcoming to all.
       </Paragraph>
 
-      <Header id="tools-of-play" type="sm">Tools of Play</Header>
+      <Header id="tools-of-play" type="small">Tools of Play</Header>
       <Paragraph>
         In addition to this book, there are a few things you will need to play Pathfinder. These supplies can be found at your local hobby shop or online at paizo.com.
       </Paragraph>
@@ -71,9 +71,9 @@ export default function Section2(){
         <strong>Dice:</strong> The players and GM will need at least one set of polyhedral dice, although most participants bring their own. Six-sided dice are quite common, but all the dice in the set can be found at hobby game stores or online. See the Dice sidebar below for more on the different kinds of dice and how they are discussed in the text.
       </Paragraph>
 
-      <Block>
-        <Header type="block">Dice</Header>
-        <Image type="right" src={pf3} alt="pf3" width="230px" />
+      <Block type="aside">
+        <Header type="aside">Dice</Header>
+        <Image type="right" src={pf3} alt="pf3" width="230px" height="252px" />
         <Paragraph>
           Pathfinder requires a set of polyhedral dice. Each die has a different number of sides—four, six, eight, or more. When these dice are mentioned in the text, they’re indicated by a “d” followed by the number of sides on the die. Pathfinder uses 4-sided dice (or d4), 6-sided dice (d6), 8-sided dice (d8), 10-sided dice (d10), 12-sided dice (d12), and 20-sided dice (d20). If you need to roll multiple dice, a number before the “d” tells you how many. For example, “4d6” means you should roll four dice, all 6-sided. If a rule asks for d%, you generate a number from 1 to 100 by rolling two 10-sided dice, treating one as the tens place and the other as the ones place.
         </Paragraph>

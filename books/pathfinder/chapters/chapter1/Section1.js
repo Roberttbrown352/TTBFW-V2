@@ -2,8 +2,8 @@ import Image from "../../../../components/Image";
 import Header from "../../../../components/Header";
 import Block from "../../../../components/Block";
 import Paragraph from "../../../../components/Paragraph";
-import pf1 from "../../images/chapter1/pf1.webp";
-import pf2 from "../../images/chapter1/pf2.webp";
+import pf1 from "../../../../public/images/pathfinder/chapter1/pf1.webp";
+import pf2 from "../../../../public/images/pathfinder/chapter1/pf2.webp";
 
 export default function Section1(){
   return(

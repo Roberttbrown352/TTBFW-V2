@@ -5,7 +5,7 @@ import Paragraph from "../../../../components/Paragraph";
 export default function Section5(){
   return (
     <>
-      <Header id="example-of-play" type="md">Example of Play</Header>
+      <Header id="example-of-play" type="medium">Example of Play</Header>
       <Paragraph>
         The following example is presented to give you a better idea of how the game of Pathfinder is played. In this adventure, Erik is the GM. Lyz is playing Valeros, a daring human fighter, James is playing Merisiel, a deadly elven rogue, and Judy is taking on the role of Kyra, a fiery human cleric of Sarenrae. The group has just defeated a horde of undead and is making its way into an ancient mausoleum.
       </Paragraph>

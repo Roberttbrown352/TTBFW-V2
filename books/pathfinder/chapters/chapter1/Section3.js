@@ -2,17 +2,17 @@ import Image from "../../../../components/Image";
 import Header from "../../../../components/Header";
 import Block from "../../../../components/Block"
 import Paragraph from "../../../../components/Paragraph";
-import pf4 from "../../images/chapter1/pf4.webp"
+import pf4 from "../../../../public/images/pathfinder/chapter1/pf4.webp"
 
 export default function Section3(){
   return (
     <>
-      <Header id="basics-of-play" type="md">Basics of Play</Header>
+      <Header id="basics-of-play" type="medium">Basics of Play</Header>
       <Paragraph>
         Before creating your first character or adventure, you should understand a number of basic concepts used in the game. New concepts are presented in bold to make them easy to find, but this chapter is only an introduction to the basics of play. The complete game rules are defined in later chapters, and the Glossary and Index in the Core Rulebook will help you find specific rules you need.
       </Paragraph>
 
-      <Header id="defining-characters" type="sm">Defining Characters</Header>
+      <Header id="defining-characters" type="small">Defining Characters</Header>
       <Paragraph>
         In Pathfinder, the players take on the role of <strong>player characters (PCs)</strong>, while the Game Master portrays <strong>nonplayer characters (NPCs)</strong> and <strong>monsters</strong>. While PCs and NPCs are both important to the story, they serve very different purposes in the game. PCs are the protagonists—the narrative is about them—while NPCs and monsters are allies, contacts, adversaries, and villains. That said, PCs, NPCs, and monsters share several characteristics.
       </Paragraph>
@@ -32,14 +32,14 @@ export default function Section3(){
         In addition to these key choices, player characters also have a number of <strong>feats</strong>—individual abilities selected during character creation and as the character increases in level. Every feat has a type to denote where its explanation can be found (for example, elf feats can be found in the elf ancestry) and its theme (wizard feats, for example, grant abilities that deal with spells). Finally, characters have <strong>skills</strong> that measure their ability to hide, swim, bargain, and perform other common tasks.
       </Paragraph>
 
-      <Block type="sidebar">
-        <Header type="block">The World as a Participant</Header>
+      <Block type="aside">
+        <Header type="aside">The World as a Participant</Header>
         <Paragraph>
           Aside from characters and monsters, the world of Pathfinder itself can be a force at the table and in the narrative. While the presence of the larger world can sometimes be an obvious hazard, such as when a powerful storm lashes the countryside, the world can also act in subtle, small ways. Traps and treasures are just as important in many tales as cunning beasts. To help you understand these game elements, many of them use the same characteristics as characters and monsters. For example, most environmental hazards have a level, which indicates how dangerous they are, and the level of a magic item gives you a sense of its overall power and impact on a story.
         </Paragraph>
       </Block>
 
-      <Header id="creating-a-narrative" type="sm">Creating a Narrative</Header>
+      <Header id="creating-a-narrative" type="small">Creating a Narrative</Header>
       <Paragraph>
         Characters and their choices create the story of Pathfinder, but how they interact with each other and the world around them is governed by rules. So, while you might decide that your character undertakes an epic journey to overcome terrifying foes and make the world a safer place, your character’s chance of success is determined by their abilities, the choices you make, and the roll of the dice.
       </Paragraph>

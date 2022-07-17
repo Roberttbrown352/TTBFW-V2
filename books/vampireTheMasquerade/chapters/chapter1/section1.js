@@ -9,8 +9,8 @@ import AsideLI from "../../components/AsideLI";
 import AsideBlock from "../../components/AsideBlock";
 import QuoteAuthor from "../../components/QuoteAuthor";
 import EM from "../../components/EM";
-import vtm1 from "../../images/chapter1/vtm1.webp";
-import vtm2 from "../../images/chapter1/vtm2.webp";
+import vtm1 from "../../../../public/images/vampireTheMasquerade/chapter1/vtm1.webp";
+import vtm2 from "../../../../public/images/vampireTheMasquerade/chapter1/vtm2.webp";
 
 export default function Section1(){
   return(

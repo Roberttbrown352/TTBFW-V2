@@ -1,12 +1,12 @@
 import Image from "../../../../components/Image";
 import Header from "../../../../components/Header";
 import Paragraph from "../../../../components/Paragraph";
-import pf5 from "../../images/chapter1/pf5.webp"
+import pf5 from "../../../../public/images/pathfinder/chapter1/pf5.webp"
 
 export default function Section4(){
   return (
     <>
-      <Header id="playing-the-game" type="md">Playing the Game</Header>
+      <Header id="playing-the-game" type="medium">Playing the Game</Header>
       <Paragraph>
         In a Pathfinder game, three modes of play determine the pacing of each scene in the story. Most of your character’s time is spent in <strong>exploration</strong>, uncovering mysteries, solving problems, and interacting with other characters. The Age of Lost Omens abounds with danger, however, and characters often find themselves in an <strong>encounter</strong>, fighting savage beasts and terrifying monsters. Finally, time moves quickly when the characters enjoy <strong>downtime</strong>, a respite from the world’s troubles and a chance to rest and train for future expeditions. Throughout an adventure, game play moves between these three modes many times, as needed for the story. The more you play the game, the more you’ll see that each mode has its own play style, but moving from mode to mode has few hard boundaries.
       </Paragraph>
@@ -26,7 +26,7 @@ export default function Section4(){
         Proficiency is a simple way of assessing your character’s general level of training and aptitude for a given task. It is broken into five different ranks: <strong>untrained</strong>, <strong>trained</strong>, <strong>expert</strong>, <strong>master</strong>, and <strong>legendary</strong>. Each rank grants a different proficiency bonus. If you’re untrained at a statistic, your proficiency bonus is +0—you must rely solely on the raw potential of your ability modifier. If your proficiency rank for a statistic is trained, expert, master, and legendary, your bonus equals your character’s level plus another number based on the rank (2, 4, 6, and 8, respectively). Proficiency ranks are part of almost every statistic in the game.
       </Paragraph>
 
-      <Header id="exploration" type="sm">Exploration</Header>
+      <Header id="exploration" type="small">Exploration</Header>
       <Paragraph>
         Most of the time, your character will explore the world, interact with characters, travel from place to place, and overcome challenges. This is called exploration. Game play is relatively free-form during exploration, with players responding to the narrative whenever they have an idea of what to do next. Leaving town via horseback, following the trail of a marauding orc tribe, avoiding the tribe’s scouts, and convincing a local hunter to help in an upcoming fight are all examples of things that might occur during exploration.
       </Paragraph>
@@ -34,7 +34,7 @@ export default function Section4(){
         Throughout this mode of play, the GM asks the players what their characters are doing as they explore. This is important in case a conflict arises. If combat breaks out, the tasks the PCs undertook while exploring might give them an edge or otherwise inform how the combat begins.
       </Paragraph>
 
-      <Header id="encounters" type="sm">Encounters</Header>
+      <Header id="encounters" type="small">Encounters</Header>
       <Paragraph>
         In the course of your adventures, there will be times when a simple skill check is not enough to resolve a challenge—when fearsome monsters stand in your character’s way and the only choice is to do battle. In Pathfinder, this is called an encounter. Encounters usually involve combat, but they can also be used in situations where timing is critical, such as during a chase or when dodging hazards.
       </Paragraph>
@@ -59,12 +59,12 @@ export default function Section4(){
 
       <Image src={pf5} alt="pf5" />
 
-      <Header id="downtime" type="sm">Downtime</Header>
+      <Header id="downtime" type="small">Downtime</Header>
       <Paragraph>
         Characters don’t spend every waking moment adventuring. Instead, they recover from wounds, plan future conquests, or pursue a trade. In Pathfinder, this is called downtime, and it allows time to pass quickly while characters work toward long-term tasks or objectives. Most characters can practice a trade in downtime, earning a few coins, but those with the right skills can instead spend time crafting, creating new gear or even magic items. Characters can also use downtime to retrain, replacing one character choice with another to reflect their evolving priorities. They might also research a problem, learn new spells, or even run a business or kingdom!
       </Paragraph>
 
-      <Header id="key-terms" type="sm">Key Terms</Header>
+      <Header id="key-terms" type="small">Key Terms</Header>
       <Paragraph>
         There are a number of important terms that you’ll need to know as you create your first character or adventure. Some of the most important terms mentioned in previous sections are also included here for reference.
       </Paragraph>
