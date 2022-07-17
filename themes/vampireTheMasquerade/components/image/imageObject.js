@@ -1,5 +1,5 @@
 const imageObject = {
-  maxWidth: '50%',
+  maxWidth: '100%',
   margin: '0px auto',
   display: 'block',
 }

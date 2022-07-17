@@ -1,7 +1,7 @@
 import Image from "../../../../components/Image";
 import Header from "../../../../components/Header";
 import Paragraph from "../../../../components/Paragraph";
-import pf6 from "../../images/Chapter1/pf6.webp"
+import pf6 from "../../images/chapter1/pf6.webp"
 
 export default function Section6(){
   return (

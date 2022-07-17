@@ -4,7 +4,7 @@ const imageCenter = {
   display: 'block',
   marginBottom: '10px',
   position: 'relative',
-  padding: '0',
+  padding: '0'
 }
 
 export default imageCenter
