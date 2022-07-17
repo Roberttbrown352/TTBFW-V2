@@ -5,8 +5,9 @@ import Page from "../../components/Page"
 import Chapters from "./chapters/"
 
 export default function Pathfinder(){
+  console.log(theme.light)
   return(
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme.light}>
       <Book>
         <Page>
           <Chapters />

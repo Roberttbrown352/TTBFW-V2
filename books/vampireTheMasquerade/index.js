@@ -6,7 +6,7 @@ import Section1 from "./chapters/chapter1/section1"
 
 export default function VamprieTheMasquerade(){
   return(
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme.dark}>
     <Book>
         <Page>
           <Section1 />

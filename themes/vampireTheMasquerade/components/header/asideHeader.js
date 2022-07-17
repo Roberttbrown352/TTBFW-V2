@@ -4,7 +4,6 @@ const asideHeader = {
   fontWeight: "normal",
   fontFamily: "Bodoni",
   fontSize: "36px",
-  color: "#C82434",
   textTransform: "none"
 }
 

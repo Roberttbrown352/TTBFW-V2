@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 const AbilityHeader = styled.h3`
-  margin-top: ${props => props.theme.abilityHeader.marginTop};
-  margin-bottom: ${props => props.theme.abilityHeader.marginBottom};
-  font-weight: ${props => props.theme.abilityHeader.fontWeight};
-  font-family: ${props => props.theme.abilityHeader.fontFamily};
-  font-size: ${props => props.theme.abilityHeader.fontSize};
-  color: ${props => props.theme.abilityHeader.color};
-  text-transform: ${props => props.theme.abilityHeader.textTransform};
+  margin-top: ${props => props.theme.style.abilityHeader.marginTop};
+  margin-bottom: ${props => props.theme.style.abilityHeader.marginBottom};
+  font-weight: ${props => props.theme.style.abilityHeader.fontWeight};
+  font-family: ${props => props.theme.style.abilityHeader.fontFamily};
+  font-size: ${props => props.theme.style.abilityHeader.fontSize};
+  color: ${props => props.theme.color.abilityHeader.color};
+  background-color: ${props => props.theme.color.abilityHeader.backgroundColor};
+  text-transform: ${props => props.theme.style.abilityHeader.textTransform};
 `
 
 export default AbilityHeader

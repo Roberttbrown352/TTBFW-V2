@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 const MediumHeader = styled.h2`
-  margin-top: ${props => props.theme.mediumHeader.marginTop};
-  margin-bottom: ${props => props.theme.mediumHeader.marginBottom};
-  font-weight: ${props => props.theme.mediumHeader.fontWeight};
-  font-family: ${props => props.theme.mediumHeader.fontFamily};
-  font-size: ${props => props.theme.mediumHeader.fontSize};
-  color: ${props => props.theme.mediumHeader.color};
-  text-transform: ${props => props.theme.mediumHeader.textTransform};
+  margin-top: ${props => props.theme.style.mediumHeader.marginTop};
+  margin-bottom: ${props => props.theme.style.mediumHeader.marginBottom};
+  font-weight: ${props => props.theme.style.mediumHeader.fontWeight};
+  font-family: ${props => props.theme.style.mediumHeader.fontFamily};
+  font-size: ${props => props.theme.style.mediumHeader.fontSize};
+  color: ${props => props.theme.color.mediumHeader.color};
+  background-color: ${props => props.theme.color.mediumHeader.backgroundColor};
+  text-transform: ${props => props.theme.style.mediumHeader.textTransform};
 `
 
 export default MediumHeader

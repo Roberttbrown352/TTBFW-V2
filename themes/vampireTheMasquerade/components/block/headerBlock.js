@@ -1,8 +1,6 @@
 const headerBlock = {
   margin: "20px 0px",
-  color: "#CFCFCF",
   borderRadius: "8px",
-  backgroundColor: "none",
   padding: "10px",
   fontStyle: "italic",
   fontWeight: "400",

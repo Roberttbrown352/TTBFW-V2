@@ -4,7 +4,6 @@ const largeHeader = {
   fontWeight: "normal",
   fontFamily: "Taroca",
   fontSize: "36px",
-  color: "#5d0000",
   textTransform: "uppercase"
 }
 

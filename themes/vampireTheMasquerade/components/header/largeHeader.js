@@ -4,7 +4,6 @@ const largeHeader = {
   fontWeight: "normal",
   fontFamily: "Bodoni",
   fontSize: "42px",
-  color: "#C82434",
   textTransform: "none"
 }
 

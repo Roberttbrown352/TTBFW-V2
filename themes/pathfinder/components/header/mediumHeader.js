@@ -4,7 +4,6 @@ const mediumHeader = {
   fontWeight: "normal",
   fontFamily: "Taroca",
   fontSize: "26px",
-  color: "#002564",
   textTransform: "uppercase"
 }
 

@@ -4,7 +4,6 @@ const smallHeader = {
   fontWeight: "normal",
   fontFamily: "Gin",
   fontSize: "24px",
-  color: "#5d0000",
   textTransform: "uppercase"
 }
 

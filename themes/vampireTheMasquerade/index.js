@@ -12,7 +12,10 @@ import imageCenter from "./components/image/imageCenter"
 import imageRight from "./components/image/imageRight"
 import imageObject from "./components/image/imageObject"
 
-const theme = {
+import lightColor from "./colors/light"
+import darkColor from "./colors/dark"
+
+const style = {
   book,
   page,
   headerBlock,
@@ -26,6 +29,21 @@ const theme = {
   imageCenter,
   imageRight,
   imageObject
+}
+
+const light = {
+  style,
+  color: lightColor
+}
+
+const dark = {
+  style,
+  color: darkColor
+}
+
+const theme = {
+  light,
+  dark
 }
 
 export default theme

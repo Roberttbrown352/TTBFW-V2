@@ -1,8 +1,6 @@
 const asideBlock = {
   margin: "0px 0px 20px 0px",
-  color: "#CFCFCB",
   borderRadius: "0px",
-  backgroundColor: "#171717",
   padding: "20px",
   fontStyle: "normal",
   fontWeight: "normal",
