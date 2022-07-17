@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const AsideBlock = styled.section`
-  margin-bottom: ${props => props.theme.asideBlock.marginBottom};
+  margin: ${props => props.theme.asideBlock.margin};
   color: ${props => props.theme.asideBlock.color};
   border-radius: ${props => props.theme.asideBlock.borderRadius};
   background-color: ${props => props.theme.asideBlock.backgroundColor};

@@ -1,5 +1,5 @@
 const asideBlock = {
-  marginBottom: "20px",
+  margin: "0px 0px 20px 0px",
   color: "#5C1C16",
   borderRadius: "8px",
   backgroundColor: "#FDFDFD",

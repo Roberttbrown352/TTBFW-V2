@@ -23,6 +23,11 @@ export default function Home() {
             <a>Pathfinder</a>
           </Link>
         </li>
+        <li>
+          <Link href="/vampire-the-masquerade">
+            <a>Vampire the Masquerade</a>
+          </Link>
+        </li>
       </ul>
     </div>
   )

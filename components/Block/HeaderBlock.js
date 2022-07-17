@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HeaderBlock = styled.section`
-  margin-bottom: ${props => props.theme.headerBlock.marginBottom};
+  margin: ${props => props.theme.headerBlock.margin};
   color: ${props => props.theme.headerBlock.color};
   border-radius: ${props => props.theme.headerBlock.borderRadius};
   background-color: ${props => props.theme.headerBlock.backgroundColor};

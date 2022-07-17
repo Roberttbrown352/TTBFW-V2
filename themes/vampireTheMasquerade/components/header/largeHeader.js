@@ -2,10 +2,10 @@ const largeHeader = {
   marginTop: "50px",
   marginBottom: "10px",
   fontWeight: "normal",
-  fontFamily: "Taroca",
-  fontSize: "36px",
-  color: "#5d0000",
-  textTransform: "uppercase"
+  fontFamily: "Bodoni",
+  fontSize: "42px",
+  color: "#C82434",
+  textTransform: "none"
 }
 
 export default largeHeader

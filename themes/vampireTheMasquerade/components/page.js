@@ -1,9 +1,9 @@
 const page = {
   backgroundColor: "none",
   maxWidth: "800px",
-  fontFamily: "Nunito",
-  fontSize: "18px",
-  color: "#393636",
+  fontFamily: "EBGaramond",
+  fontSize: "20px",
+  color: "#CFCFCF",
   margin: "0px auto",
   paddingTop: "32px",
   paddingBottom: "6rem",

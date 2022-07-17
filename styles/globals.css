@@ -40,6 +40,34 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Gill';
+  src: url('./fonts/Gill-Sans-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni';
+  src: url('./fonts/Bodoni-72.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni-Ornaments';
+  src: url('./fonts/bodooitc.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url('./fonts/EBGaramond-Regular.ttf') format('truetype');
+  font-weight: 400 800;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
