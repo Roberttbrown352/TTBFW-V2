@@ -27,6 +27,14 @@ const dark = {
     backgroundColor: "none",
     color: "#d8ec7b"
   },
+  topMenuBackground: {
+    backgroundColor: "#5c1c16",
+    color: "none"
+  },
+  topMenuContainer: {
+    backgroundColor: "none",
+    color: "none"
+  },
   book: {
     backgroundColor: "#201a19",
     color: "none"

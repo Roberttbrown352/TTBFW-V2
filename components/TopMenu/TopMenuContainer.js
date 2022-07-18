@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const TopMenuContainer = styled.nav`
-  height: 64px;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
+  height: ${props => props.theme.style.topMenuContainer.height};
+  width: ${props => props.theme.style.topMenuContainer.width};
+  display: ${props => props.theme.style.topMenuContainer.display};
+  align-items: ${props => props.theme.style.topMenuContainer.alignItems};
+  padding: ${props => props.theme.style.topMenuContainer.padding};
 `
 
 export default TopMenuContainer

@@ -27,6 +27,14 @@ const light = {
     backgroundColor: "none",
     color: "#5d0000"
   },
+  topMenuBackground: {
+    backgroundColor: "#5c1c16",
+    color: "none"
+  },
+  topMenuContainer: {
+    backgroundColor: "none",
+    color: "none"
+  },
   book: {
     backgroundColor: "#ECE9E4",
     color: "none"

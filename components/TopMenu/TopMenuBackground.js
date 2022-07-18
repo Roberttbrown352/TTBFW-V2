@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 const TopMenuBackground = styled.nav`
-  background: url('/images/nav/navbar-background.png') right center no-repeat;
-  background-color: #5c1c16;
-  position: sticky;
-  z-index: 1;
-  top: 0;
-  height: 64px;
-  width: 100vw;
+  background: ${props => props.theme.style.topMenuBackground.background};
+  background-color: ${props => props.theme.color.topMenuBackground.backgroundColor};
+  position: ${props => props.theme.style.topMenuBackground.position};
+  z-index: ${props => props.theme.style.topMenuBackground.zIndex};
+  top: ${props => props.theme.style.topMenuBackground.top};;
+  height: ${props => props.theme.style.topMenuBackground.height};
+  width: ${props => props.theme.style.topMenuBackground.width};
 `
 
 export default TopMenuBackground
