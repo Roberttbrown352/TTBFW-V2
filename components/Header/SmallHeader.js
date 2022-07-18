@@ -9,6 +9,7 @@ const SmallHeader = styled.h3`
   color: ${props => props.theme.color.smallHeader.color};
   background-color: ${props => props.theme.color.smallHeader.backgroundColor};
   text-transform: ${props => props.theme.style.smallHeader.textTransform};
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 
 export default SmallHeader

@@ -12,5 +12,6 @@ const HeaderBlock = styled.section`
   font-size: ${props => props.theme.style.headerBlock.fontSize};
   line-height: ${props => props.theme.style.headerBlock.lineHeight};
   letter-spacing: ${props => props.theme.style.headerBlock.letterSpacing};
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 export default HeaderBlock

@@ -9,6 +9,7 @@ const AbilityHeader = styled.h3`
   color: ${props => props.theme.color.abilityHeader.color};
   background-color: ${props => props.theme.color.abilityHeader.backgroundColor};
   text-transform: ${props => props.theme.style.abilityHeader.textTransform};
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 
 export default AbilityHeader

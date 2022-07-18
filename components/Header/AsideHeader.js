@@ -9,6 +9,7 @@ const AsideHeader = styled.h5`
   color: ${props => props.theme.color.asideHeader.color};
   background-color: ${props => props.theme.color.asideHeader.backgroundColor};
   text-transform: ${props => props.theme.style.asideHeader.textTransform};
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 
 export default AsideHeader

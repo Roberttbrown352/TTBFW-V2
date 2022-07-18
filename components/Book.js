@@ -5,6 +5,7 @@ const Book = styled.main`
   color: ${props => props.theme.color.book.color};
   height: ${props => props.theme.style.book.height};
   width: ${props => props.theme.style.book.width};
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 
 export default Book

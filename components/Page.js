@@ -11,6 +11,7 @@ const Page = styled.section`
   line-height: ${props => props.theme.style.page.lineHeight};
   position: ${props => props.theme.style.page.position};
   font-family: ${props => props.theme.style.page.fontFamily};
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 
 export default Page
