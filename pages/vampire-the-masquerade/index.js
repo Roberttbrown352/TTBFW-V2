@@ -11,7 +11,7 @@ export default function VampireMain() {
   return (
     <ThemeProvider theme={current === "light" ? theme.light : theme.dark}>
       <TopMenu theme={{current, setCurrent}} />
-      <Vampire />
+      <Vampire theme={current}/>
     </ThemeProvider>
   )
 }

@@ -10,12 +10,28 @@ import AsideBlock from "../../components/AsideBlock";
 import QuoteAuthor from "../../components/QuoteAuthor";
 import EM from "../../components/EM";
 import vtm1 from "../../../../public/images/vampireTheMasquerade/chapter1/vtm1.webp";
+import vtm1Black from "../../../../public/images/vampireTheMasquerade/chapter1/vtm1-black.webp";
 import vtm2 from "../../../../public/images/vampireTheMasquerade/chapter1/vtm2.webp";
 
-export default function Section1(){
+export default function Section1({theme}){
+
+  console.log(theme)
+
+  const TitleImage = () => {
+    if(theme === 'light'){
+      return (
+        <Image src={vtm1Black} alt="Title Image" width="480px" height="180px"/>
+      )
+    }
+
+    return (
+      <Image src={vtm1} alt="Title Image" width="480px" height="180px"/>
+    )
+  }
+
   return(
     <>
-      <Image src={vtm1} alt="vtm1" width="480px" height="180px"/>
+      <TitleImage />
       <TitleHeader>
         <Decor>†</Decor>
         Companion

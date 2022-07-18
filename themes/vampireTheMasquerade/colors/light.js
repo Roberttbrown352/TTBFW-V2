@@ -1,11 +1,13 @@
+// #001f24
+
 const light = {
   asideBlock: {
-    backgroundColor: "#FDFDFD",
-    color: "#5C1C16",
+    backgroundColor: "#f4dddc",
+    color: "#524342",
   },
   headerBlock: {
-    backgroundColor: "#FDFDFD",
-    color: "#5C1C16"
+    backgroundColor: "none",
+    color: "#001f24"
   },
   abilityHeader: {
     backgroundColor: "none",
@@ -13,15 +15,15 @@ const light = {
   },
   asideHeader: {
     backgroundColor: "none",
-    color: "#5C1C16"
+    color: "#410007"
   },
   largeHeader: {
     backgroundColor: "none",
-    color: "#5d0000"
+    color: "#ba172c"
   },
   mediumHeader: {
     backgroundColor: "none",
-    color: "#002564"
+    color: "#ba172c"
   },
   smallHeader: {
     backgroundColor: "none",
@@ -36,16 +38,30 @@ const light = {
     color: "none"
   },
   book: {
-    backgroundColor: "#ECE9E4",
+    backgroundColor: "#f6feff",
     color: "none"
   },
   italic: {
     backgroundColor: "none",
-    color: "#5C1C16"
+    color: "#f6feff"
   },
   page: {
     backgroundColor: "none",
-    color: "#393636"
+    color: "#001f24"
+  },
+  special: {
+    asideBlock:{
+      borderColor: "#857372",
+    },
+    titleHeader: {
+      color: "#ba172c"
+    },
+    decor: {
+      color: "#68111a"
+    },
+    em: {
+      color: "black"
+    }
   }
 }
 

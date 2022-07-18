@@ -41,11 +41,25 @@ const dark = {
   },
   italic: {
     backgroundColor: "none",
-    color: "#FFFFFF"
+    color: "#f6feff"
   },
   page: {
     backgroundColor: "none",
     color: "#CFCFCF"
+  },
+  special: {
+    asideBlock: {
+      borderColor: "#555555"
+    },
+    titleHeader: {
+      color: "#C82434"
+    },
+    decor: {
+      color: "#68111a"
+    },
+    em: {
+      color: "#FFFFFF"
+    }
   }
 }
 
