@@ -1,11 +1,11 @@
 const dark = {
   asideBlock: {
-    backgroundColor: "#FDFDFD",
-    color: "#5C1C16",
+    backgroundColor: "#7d2b23",
+    color: "#ffdad5",
   },
   headerBlock: {
-    backgroundColor: "#FDFDFD",
-    color: "#5C1C16"
+    backgroundColor: "#7d2b23",
+    color: "#ffdad5"
   },
   abilityHeader: {
     backgroundColor: "none",
@@ -13,31 +13,31 @@ const dark = {
   },
   asideHeader: {
     backgroundColor: "none",
-    color: "#5C1C16"
+    color: "#ffdad5"
   },
   largeHeader: {
     backgroundColor: "none",
-    color: "#5d0000"
+    color: "#d8ec7b"
   },
   mediumHeader: {
     backgroundColor: "none",
-    color: "#002564"
+    color: "#b2c5ff"
   },
   smallHeader: {
     backgroundColor: "none",
-    color: "#5d0000"
+    color: "#d8ec7b"
   },
   book: {
-    backgroundColor: "#002564",
+    backgroundColor: "#201a19",
     color: "none"
   },
   italic: {
     backgroundColor: "none",
-    color: "#5C1C16"
+    color: "#ffb4ab"
   },
   page: {
     backgroundColor: "none",
-    color: "#393636"
+    color: "#d8c2be"
   }
 }
 
