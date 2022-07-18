@@ -7,8 +7,6 @@ import Image from "next/image";
 
 export default function TopMenu ({theme}){
 
-  console.log(theme)
-
   const changeTheme = () => {
     theme.setCurrent(theme.current === "light" ? "dark" : "light")
   }
