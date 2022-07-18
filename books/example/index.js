@@ -14,7 +14,7 @@ import pf3 from "../../public/images/examples/pf3.webp"
 
 export default function Pathfinder(){
   return(
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme.light}>
       <Book>
         <Page>
           <Block type="header">Header Block</Block>
