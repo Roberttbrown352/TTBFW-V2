@@ -11,6 +11,10 @@ import italic from "./components/italic"
 import imageCenter from "./components/image/imageCenter"
 import imageRight from "./components/image/imageRight"
 import imageObject from "./components/image/imageObject"
+import topMenuBackground from "./components/topMenu/topMenuBackground"
+import topMenuContainer from "./components/topMenu/topMenuContainer"
+import themeButton from "./components/topMenu/themeButton"
+import homeButton from "./components/topMenu/homeButton"
 
 import lightColor from "./colors/light"
 import darkColor from "./colors/dark"
@@ -28,7 +32,11 @@ const style = {
   italic,
   imageCenter,
   imageRight,
-  imageObject
+  imageObject,
+  topMenuBackground,
+  topMenuContainer,
+  themeButton,
+  homeButton
 }
 
 const light = {
