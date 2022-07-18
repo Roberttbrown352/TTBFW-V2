@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const ThemeButton = styled.button`
-  height: 40px;
-  width: 40px;
-  text-align: center;
+  height: ${props => props.theme.style.themeButton.height};
+  width: ${props => props.theme.style.themeButton.width};
+  text-align: ${props => props.theme.style.themeButton.textAlign};
 `
 
 export default ThemeButton

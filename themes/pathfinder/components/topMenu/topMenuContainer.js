@@ -3,7 +3,8 @@ const topMenuContainer = {
   width: '100vw',
   display: 'flex',
   alignItems: 'center',
-  padding: '0 20px'
+  padding: '0 20px',
+  gap: '8px'
 }
 
 export default topMenuContainer

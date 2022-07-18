@@ -6,6 +6,7 @@ const TopMenuContainer = styled.nav`
   display: ${props => props.theme.style.topMenuContainer.display};
   align-items: ${props => props.theme.style.topMenuContainer.alignItems};
   padding: ${props => props.theme.style.topMenuContainer.padding};
+  gap:  ${props => props.theme.style.topMenuContainer.gap};
 `
 
 export default TopMenuContainer
