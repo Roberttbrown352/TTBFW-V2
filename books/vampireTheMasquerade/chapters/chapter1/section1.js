@@ -53,7 +53,7 @@ export default function Section1({theme}){
       </Block>
       <QuoteAuthor>— EDITH NESBIT, “HURST OF HURSTCOTE”</QuoteAuthor>
 
-      <Header type="medium">Welcome to the darkness...</Header>
+      <Header type="medium" id={"welcome-to-the-darkness..."}>Welcome to the darkness...</Header>
       <Paragraph>
         <strong><EM>The Vampire: The Masquerade Companion</EM></strong> is intended as a thank you to World of Darkness enthusiasts, provided as a complimentary gift to those who have long been with us or who have just joined us on their first steps into this world of shadows and secrets.
       </Paragraph>
