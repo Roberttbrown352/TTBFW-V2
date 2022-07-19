@@ -9,6 +9,7 @@ const LargeHeader = styled.h1`
   color: ${props => props.theme.color.largeHeader.color};
   background-color: ${props => props.theme.color.largeHeader.backgroundColor};
   text-transform: ${props => props.theme.style.largeHeader.textTransform};
+  scroll-margin-top: 70px;
   transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 

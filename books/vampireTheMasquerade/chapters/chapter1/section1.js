@@ -15,8 +15,6 @@ import vtm2 from "../../../../public/images/vampireTheMasquerade/chapter1/vtm2.w
 
 export default function Section1({theme}){
 
-  console.log(theme)
-
   const TitleImage = () => {
     if(theme === 'light'){
       return (
@@ -41,12 +39,12 @@ export default function Section1({theme}){
         <Header type="aside">Behold the Burgeoning Darkness</Header>
         <Paragraph>
           As a thank you to World of Darkness enthusiasts, this free supplement contains:
-          <AsideUL>
+        </Paragraph>
+        <AsideUL>
             <AsideLI>Clan descriptions for the doomed Ravnos, the hunted Salubri, and the covetous Tzimisce</AsideLI>
             <AsideLI>Rules for playing mortals and ghouls</AsideLI>
             <AsideLI>Extensive new traits to expand your chronicles, from Discipline powers to clan-specific Advantages to Merits and Flaws</AsideLI>
           </AsideUL>
-        </Paragraph>
       </AsideBlock>
 
       <Header>Introduction</Header>

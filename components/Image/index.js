@@ -2,10 +2,10 @@ import ImageCenter from "./ImageCenter";
 import ImageRight from "./ImageRight";
 import ImageObject from "./ImageObject";
 
-export default function Image({src, alt, type, width, height}){
+export default function Image({src, alt, type, width, height, id}){
   if(type === "center"){
     return (
-      <ImageCenter>
+      <ImageCenter id={id}>
         <ImageObject src={src} alt={alt} width={width} height={height}/>
       </ImageCenter>
     )
@@ -13,14 +13,14 @@ export default function Image({src, alt, type, width, height}){
 
   if(type === "right"){
     return (
-      <ImageRight width={width}>
+      <ImageRight width={width} id={id}>
         <ImageObject src={src} alt={alt} width={width} height={height}/>
       </ImageRight>
     )
   }
 
   return (
-    <ImageCenter>
+    <ImageCenter id={id}>
       <ImageObject src={src} alt={alt} width={width} height={height}/>
     </ImageCenter>
   )

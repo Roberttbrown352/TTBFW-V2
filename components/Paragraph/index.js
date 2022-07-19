@@ -1,7 +1,7 @@
 import Paragraph from "./Paragraph";
 
-export default function ParagraphFunction({children}){
+export default function ParagraphFunction({children, id}){
   return(
-    <Paragraph>{children}</Paragraph>
+    <Paragraph id={id}>{children}</Paragraph>
   )
 }

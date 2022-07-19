@@ -12,6 +12,7 @@ const AsideBlock = styled.section`
   line-height: ${props => props.theme.style.asideBlock.lineHeight};
   letter-spacing: ${props => props.theme.style.asideBlock.letterSpacing};
   box-shadow: ${props => props.theme.style.asideBlock.boxShadow};
+  scroll-margin-top: 70px;
   transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 `
 

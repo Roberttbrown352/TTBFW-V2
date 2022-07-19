@@ -10,6 +10,7 @@ const ImageRight = styled.div`
   position: ${props => props.theme.style.imageRight.position};
   padding: ${props => props.theme.style.imageRight.padding};
   float: ${props => props.theme.style.imageRight.float};
+  scroll-margin-top: 70px;
 `
 
 export default ImageRight

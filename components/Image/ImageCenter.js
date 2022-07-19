@@ -8,6 +8,7 @@ const ImageCenter = styled.div`
   position: ${props => props.theme.style.imageCenter.position};
   padding: ${props => props.theme.style.imageCenter.padding};
   justify-content: ${props => props.theme.style.imageCenter.justifyContent};
+  scroll-margin-top: 70px;
 `
 
 export default ImageCenter
