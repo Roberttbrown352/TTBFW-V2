@@ -1,6 +1,7 @@
 import SideNavDropdownContainer from "./SideNavDropdownContainer";
+import Arrow from "../../Icons/Arrow";
 
-export default function SideNavDropdown({type}){
+export default function SideNavDropdown({type, active}){
   if(type === "none"){
     return(
       <SideNavDropdownContainer />
@@ -8,8 +9,8 @@ export default function SideNavDropdown({type}){
   }
 
   return (
-    <SideNavDropdownContainer>
-      {`>`}
+    <SideNavDropdownContainer active={active}>
+      <Arrow />
     </SideNavDropdownContainer>
   )
 }

@@ -27,6 +27,50 @@ const dark = {
     backgroundColor: "none",
     color: "#d8ec7b"
   },
+  sideNavContent: {
+    backgroundColor: "#7d2b23",
+    color: "none"
+  },
+  sideNavHeaderContainer: {
+    backgroundColor: "none",
+    color: "#ffdad5",
+    hover: {
+      backgroundColor: "rgb(247, 218, 213, 0.3)",
+      color: "none"
+    },
+    active: {
+      backgroundColor: "none",
+      color: "#201a19",
+      hover: {
+        backgroundColor: "rgb(247, 218, 213, 0.3)",
+      }
+    },
+    primary: {
+      backgroundColor: "#ffdad5",
+      color: "#201a19",
+      hover: {
+        backgroundColor: "#ffdad5",
+        color: "none"
+      }
+    }
+  },
+  sideNavSubHeaderContainer: {
+    color: "#ffdad5",
+    hover: {
+      backgroundColor: "rgb(247, 218, 213, 0.3)"
+    },
+    primary: {
+      backgroundColor: "#ffdad5",
+      color: "#201a19",
+      hover: {
+        backgroundColor: "#ffdad5",
+        color: "#201a19"
+      }
+    }
+  },
+  sideNavTitleHeader: {
+    color: "#201a19"
+  },
   topMenuBackground: {
     backgroundColor: "#5c1c16",
     color: "none"

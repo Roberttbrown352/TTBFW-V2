@@ -5,6 +5,11 @@ const SideNavDropdownContainer = styled.div`
   width: 20px;
   text-align: center;
   cursor: pointer;
+  transform: rotate(-90deg);
+
+  ${props => props.active && `
+    transform: rotate(0deg);
+  `}
 `
 
 export default SideNavDropdownContainer

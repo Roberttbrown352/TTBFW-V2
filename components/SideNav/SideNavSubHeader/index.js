@@ -45,19 +45,19 @@ export default function SideNavSubHeader ({title, subHeaders, upper, setUpper, m
       <SideNavSubItems>
         <Anchor href={path}>
           <SideNavSubHeaderContainer primary={path === mainPrimary} onClick={() => {clearState()}}>
-            <SideNavDropdown />
+            <SideNavDropdown active />
             <SideNavSubHeaderTitle>
               {title}
             </SideNavSubHeaderTitle>
           </SideNavSubHeaderContainer>
-          <SideNavSubHeaderChildren>
-            {subHeaders?.map((header) => {
-              return <SideNavSubHeader title={header.title} subHeaders={header.subHeaders}
-              key={`${header.title}-sub-header`} upper={selected} setUpper={setSelected}
-              mainPrimary={mainPrimary} setMainPrimary={setMainPrimary}/>
-            })}
-          </SideNavSubHeaderChildren>
         </Anchor>
+        <SideNavSubHeaderChildren>
+          {subHeaders?.map((header) => {
+            return <SideNavSubHeader title={header.title} subHeaders={header.subHeaders}
+            key={`${header.title}-sub-header`} upper={selected} setUpper={setSelected}
+            mainPrimary={mainPrimary} setMainPrimary={setMainPrimary}/>
+          })}
+        </SideNavSubHeaderChildren>
       </SideNavSubItems>
     )
   }

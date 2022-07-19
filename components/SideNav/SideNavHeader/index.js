@@ -4,7 +4,6 @@ import SideNavHeaderTitle from "./SideNavHeaderTitle"
 import SideNavHeaderChildren from "./SideNavHeaderChildren"
 import SideNavSubHeader from "../SideNavSubHeader"
 import createPath from "../../utility/createPath"
-import Link from "next/link"
 
 import { useState } from "react"
 

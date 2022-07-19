@@ -3,6 +3,7 @@ import SideNavContent from "./SideNavContent";
 import SideNavTitle from "./SideNavTitle";
 import SideNavItems from "./SideNavItems";
 import SideNavHeader from "./SideNavHeader";
+import SideNavExpand from "./SideNavExpand";
 
 import { useState } from "react";
 
@@ -10,11 +11,13 @@ export default function SideNav({title, items}){
 
   const [mainSelected, setMainSelected] = useState("")
   const [mainPrimary, setMainPrimary] = useState("")
+  const [visibility, setVisibility] = useState("visible")
 
   return (
     <SideNavContainer>
-      <SideNavContent>
-        <SideNavTitle title={title} />
+      <SideNavExpand setVisibility={setVisibility} visibility={visibility}/>
+      <SideNavContent visibility={visibility}>
+        <SideNavTitle title={title} setVisibility={setVisibility} visibility={visibility}/>
         <SideNavItems>
           {items?.map(header => {
             return (<SideNavHeader title={header.title} subHeaders={header.subHeaders}
