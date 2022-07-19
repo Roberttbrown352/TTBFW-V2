@@ -3,6 +3,7 @@ import Page from "../../components/Page"
 import Section1 from "./chapters/chapter1/section1"
 
 export default function VamprieTheMasquerade({theme}){
+
   return(
     <Book>
       <Page>
